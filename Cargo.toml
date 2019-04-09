@@ -1,0 +1,19 @@
+[package]
+name = "cancellable-timer"
+version = "0.1.0"
+authors = ["Emmanuel Lesueur <emmanuel@lesueur.name>"]
+edition = "2018"
+
+description = "A timer that can be interrupted."
+readme = "README.md"
+
+homepage = "https://github.com/Emm54321/cancellable-timer"
+repository = "https://github.com/Emm54321/cancellable-timer.git"
+
+categories = ["asynchronous", "concurrency", "date-and-time"]
+keywords = ["timer", "cancel", "sleep"]
+
+license = "MIT/Apache-2.0"
+
+[dependencies]
+mio = "0.6.16"
